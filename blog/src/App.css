@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+  margin: 0;
+}
+.App{
+  background-color: whitesmoke;
+  color: black;
+  display: block;
+  height: 100vh;
+  width: auto;
+  justify-content: center;
+  justify-self: center;
+  
+}
+.Home{
+  background-image: radial-gradient(whitesmoke,gray);
+  display:flex;
+  flex-direction: column;
+}
+header{
+background-color: skyblue;
+font-size: 1.2rem;
+text-align: center;
+
+min-height: 5vh;
+}
+nav{
+ background-color: black;
+  font-family: "Ubuntu", sans-serif;
+  color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 15vh;
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+nav ul li{
+  padding: 1rem;
+  text-decoration: none;
+  color: gray;
+}
+nav form input{
+  padding: 1rem;
+}
+nav form label{
+  padding: 1rem;
+}
+.nav-link{
+  text-decoration: none;
+  color: gray;
+}
+.post-link{
+text-decoration: none;
+color: black;
+}
+.search input{
+  height: 0.5rem;
+}
+footer{
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  min-height: 3vh;
+}
+.Home{
+  text-align: center;
+  min-height: 77vh;
+  margin: 0;
+}
+.NewPost{
+  text-align: center;
+  background-image: radial-gradient(whitesmoke,gray);
+  height: 77vh;
+}
+.NewPost p label{
+  color: black;
+  padding: 1rem;
+} 
+.NewPost p{
+  padding: 1rem;
+}
+.NewPost p textarea{
+  min-height: 10rem;
+  min-width: 18rem;
+}
+.NewPost p label{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow: column;
+  font-size: 1.3rem;
+}
+.about{
+  background-image: radial-gradient(whitesmoke,gray);
+  text-align: center;
+  font-size: 1.5rem;
+  min-height: 77vh;
+}
+.NewPost button{
+  background-color: blue;
+  width:6rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+.missing{
+  background-image: radial-gradient(whitesmoke,gray);
+  text-align: center;
+  min-height: 77vh;
+  font-size: 1.5rem;
+}
+.link-missing{
+  text-decoration: none;
+  color:black;
+ 
+}
+article{
+  height:auto;
+  text-align: center;
+}
+article button{
+  background-color: red;
+}
+
+.postpage{
+  min-height: 77vh;
+}
